@@ -1,0 +1,18 @@
+Obtaining numbers from a text file in which they are separated by spaces is a
+bit trickier. One method proceeds by reading lines in a for loop, as before. But
+each line now can contain several integers separated by spaces. You can use the
+string method split to obtain a list of the strings representing these integers,
+and then process each string in this list with another for loop.
+The next code segment modifies the previous one to handle integers sepa-
+rated by spaces and/or newlines.
+
+There are several ways to read data from an input file. The simplest way is to
+use the file method read to input the entire contents of the file as a single
+string. If the file contains multiple lines of text, the newline characters will be
+embedded in this string. The next session shows how to use the method read :
+
+You open a file for input in a manner similar to opening a file for output. The
+only thing that changes is the mode string, which, in the case of opening a file for
+input, is 'r' . However, if the pathname is not accessible from the current work-
+ing directory, Python raises an error. Here is the code for opening myfile.txt
+for input:
