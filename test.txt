@@ -17,4 +17,5 @@ input, is 'r' . However, if the pathname is not accessible from the current work
 ing directory, Python raises an error. Here is the code for opening myfile.txt
 for input:
 
+
 test
