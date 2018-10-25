@@ -1,5 +1,7 @@
 {
-    "python.formatting.provider": "yapf",
-    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
-    "python.linting.pylintEnabled": false
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "/home/aditya/anaconda3/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true
 }
